@@ -1,0 +1,30 @@
+{
+  "name": "propio",
+  "version": "1.0.0",
+  "description": "un proyecto autónomo",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alfredleo7/proyectAutonomo.git"
+  },
+  "author": "Stalyn Gonzabay << stalgonz@espol.edu.ec >",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alfredleo7/proyectAutonomo/issues"
+  },
+  "homepage": "https://github.com/Alfredleo7/proyectAutonomo#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "method-override": "^2.3.9",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
