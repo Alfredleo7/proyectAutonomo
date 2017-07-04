@@ -19,5 +19,10 @@ module.exports = function(){
 
   app.use(express.static('./public'));
 
+  app.route('/').
+    get(function(req, res){
+      res.send('hola mundo');
+    });
+
   return app;
 }
