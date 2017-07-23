@@ -17,12 +17,11 @@ module.exports = function(){
   app.set('view engine', 'ejs');
   app.set('views', './app/views');
 
+  require('../app/routes/index.routes.js')(app);
+
   app.use(express.static('./public'));
 
-  app.route('/').
-    get(function(req, res){
-      res.send('hola mundo');
-    });
+
 
   return app;
 }
